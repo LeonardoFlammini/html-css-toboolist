@@ -8,12 +8,16 @@
 .container{
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
 }
 
 body{
   background-color: #F6F8F9;
 }
+
+/* header  */
 
 header{
   background-color: white;
@@ -28,4 +32,27 @@ header img{
 header h1{
   display: inline-block;
   vertical-align: middle;
+}
+
+/* main  */
+
+.main-top{
+  padding: 20px 50px;
+  border-bottom: 1px solid lightgrey;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.button{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+  background-color: white;
+}
+
+#button-task{
+  background-color: #47ADF1;
+  border-color: #47ADF1;
+  color: white;
 }
