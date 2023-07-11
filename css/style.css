@@ -22,11 +22,15 @@
   width: 20px;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid green;
+  border: 1px solid #7ACCB9;
   border-radius: 10px;
-  color: green;
+  color: #7ACCB9;
   line-height: 20px;
   text-align: center;
+}
+
+.check::after{
+  content: '\2713';
 }
 
 .cross{
@@ -34,11 +38,15 @@
   width: 20px;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid red;
+  border: 1px solid #EB5650;
   border-radius: 10px;
-  color: red;
+  color: #EB5650;
   line-height: 20px;
   text-align: center;
+}
+
+.cross::after{
+  content: '\2717';
 }
 
 .container{
@@ -61,10 +69,10 @@
 
 .label{
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   display: inline-block;
-  padding: 5px;
-
+  padding: 5px 15px;
+  font-size: 0.8em;
 }
 
 .label.editorial{
@@ -74,6 +82,50 @@
 .label.editorial::after{
   content: 'Editorial';
 }
+
+
+.label.goals{
+  background-color: #9C72E4;
+}
+
+.label.goals::after{
+  content: 'Q1 Goals';
+}
+
+
+.label.recruiting{
+  background-color: #64C0A9;
+}
+
+.label.recruiting::after{
+  content: 'Recruiting';
+}
+
+.label.mobile{
+  background-color: #F29E33;
+}
+
+.label.mobile::after{
+  content: 'Mobile';
+}
+
+
+.label.web{
+  background-color: #D863A1;
+}
+
+.label.web::after{
+  content: 'Website';
+}
+
+.label.sales{
+  background-color: #B0C926;
+}
+
+.label.sales::after{
+  content: 'Sales';
+}
+
 
 body{
   background-color: #F6F8F9;
@@ -128,7 +180,7 @@ header h1{
 }
 
 .nested-list li{
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .nested-list li span{
