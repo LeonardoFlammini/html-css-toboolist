@@ -5,6 +5,42 @@
 
 }
 
+/* utility  */
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 8px solid rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.check{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid green;
+  border-radius: 10px;
+  color: green;
+  line-height: 20px;
+  text-align: center;
+}
+
+.cross{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: red;
+  line-height: 20px;
+  text-align: center;
+}
+
 .container{
   width: 80%;
   max-width: 1200px;
@@ -13,6 +49,30 @@
   border-radius: 5px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+.button{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+  background-color: white;
+}
+
+.label{
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.label.editorial{
+  background-color: #45ABEA;
+}
+
+.label.editorial::after{
+  content: 'Editorial';
 }
 
 body{
@@ -43,13 +103,7 @@ header h1{
   border-bottom: 2px solid #F6F8F9;
 }
 
-.button{
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  color: lightgrey;
-  background-color: white;
-}
+
 
 #button-task{
   background-color: #47ADF1;
@@ -61,18 +115,25 @@ header h1{
   padding: 50px;
 }
 
-#main-list > li{
+.main-list, .nested-list{
   list-style: none;
-  font-size: 1.5em;
-  font-weight: bold;
 }
 
-.arrow-down {
-  width: 0; 
-  height: 0; 
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  
-  border-top: 10px solid rgb(0, 0, 0);
-  display: inline-block;
+
+
+.main-list li span{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 5px;
 }
+
+.nested-list li{
+  padding: 20px;
+}
+
+.nested-list li span{
+  font-size: 1em;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
