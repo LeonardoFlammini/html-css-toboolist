@@ -11,6 +11,8 @@
   margin: 20px auto;
   background-color: white;
   border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 body{
@@ -38,9 +40,7 @@ header h1{
 
 .main-top{
   padding: 20px 50px;
-  border-bottom: 1px solid lightgrey;
-  border-bottom-left-radius: 0%;
-  border-bottom-right-radius: 0%;
+  border-bottom: 2px solid #F6F8F9;
 }
 
 .button{
@@ -55,4 +55,8 @@ header h1{
   background-color: #47ADF1;
   border-color: #47ADF1;
   color: white;
+}
+
+.main-center{
+  padding: 50px;
 }
