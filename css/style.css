@@ -69,3 +69,12 @@ header h1{
 #main-list > li::before{
   content: ;
 }
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-top: 10px solid rgb(0, 0, 0);
+  display: inline-block;
+}
