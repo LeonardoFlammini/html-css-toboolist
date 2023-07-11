@@ -60,3 +60,12 @@ header h1{
 .main-center{
   padding: 50px;
 }
+
+#main-list > li{
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#main-list > li::before{
+  content: ;
+}
