@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #F6F8F9;
+}
+
+header{
+  background-color: white;
+  padding: 10px 20px;
+}
+
+header img{
+  width: 70px;
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+  vertical-align: middle;
+}
