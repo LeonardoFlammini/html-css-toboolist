@@ -65,6 +65,7 @@
   border: 1px solid lightgrey;
   color: lightgrey;
   background-color: white;
+  cursor: pointer;
 }
 
 .label{
